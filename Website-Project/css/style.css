@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://yese69.com/wp-content/uploads/data/2017/12/12/dark-blue-background-1920x1080-WTG200223280.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    border-right: 1px solid rgba(211, 199, 255, 0.719);
+}
+
+.sidebar h1 {
+    text-align: center;
+    color: rgba(103, 103, 150, 0.774);
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.navegationlist {
+    margin-top: 15%;
+
+}
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    position: fixed;
+    overflow: auto;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: right;
+    display: block;
+    color: rgba(103, 103, 150, 0.774);
+    border-bottom: 2px solid rgba(211, 199, 255, 0.719);
+}
+nav li a:hover {
+    color: white;
+    border-bottom: 2px solid rgb(211, 199, 255);
+}
+
+.parceirossite {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    margin-top: 20%;
+    display: block;
+}
+
+.parceirossite li{
+    float: left;
+}
+
+.parceirossite li a{
+    display: block;
+}
+
+.parceirossite li a:hover {
+    filter: brightness(20%);
+}
+
+.unectlogo {
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.utfprlogo {
+    margin-top: 12%;
+    margin-left: 50%;
+}
+
+.linkparceiros {
+    text-decoration: none;
+}
+
+.parceirossite h2 {
+    width: 100%;
+    text-align: center;
+    color: rgba(103, 103, 150, 0.774);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.linkparceiros h3 { 
+    text-align: center;
+    padding: 0%;
+    color: rgba(103, 103, 150, 0.774);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+

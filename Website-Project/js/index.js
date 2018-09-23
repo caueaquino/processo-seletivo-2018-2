@@ -8,6 +8,10 @@ function pesLogin(lusuario, lsenha){
     this.lsenha=lsenha;
 }
 
+function cleanLogin(){
+
+}
+
 function cadastro(){
     
 }
@@ -19,3 +23,6 @@ function pesCadastro(){
     this.cemail=cemail;
 }
 
+function cleanCadastro(){
+    
+}

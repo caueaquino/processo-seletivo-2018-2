@@ -1,28 +1,49 @@
 // Javascript Document
 function login(){
-
+    if((document.getElementById("lusuario").value=="") || (document.getElementById("lsenha").value=="")){
+        alert("Erro Login, Campo(s) em branco!");
+    }else if(false){
+        alert("Senha ou(e) Usuário inválido(s)!");
+    }else{
+        pesLogin();
+        alert("Informações\nUsuario:"+lusuario+"\nSenha:"+lsenha);  
+    }
+    cleanLogin();
 }
 
-function pesLogin(lusuario, lsenha){
-    this.lusuario=lusuario;
-    this.lsenha=lsenha;
+function pesLogin(){
+    lusuario=document.getElementById("lusuario").value;
+    lsenha=document.getElementById("lsenha").value;
 }
 
 function cleanLogin(){
-
+    document.getElementById("lusuario").value="";
+    document.getElementById("lsenha").value="";
 }
 
 function cadastro(){
-    
+    if((document.getElementById("cusuario").value=="") || (document.getElementById("csenha").value=="") || (document.getElementById("cnome").value=="") || (document.getElementById("cemail").value=="")){
+        alert("Impossível concluir cadastro, campo(s) em branco!");        
+    }else if(false){
+        alert("Usuário ou(e) Email inválido(s)!");
+    }else{
+        pesCadastro();
+        alert("Informações\nUsuário: "+cusuario+"\nSenha: "+csenha+"\nNome: "+cnome+"\nEmail: "+cemail);
+        alert(pesCadastro);
+    }
+    cleanCadastro();
 }
 
 function pesCadastro(){
-    this.cusuario=cusuario;
-    this.csenha=csenha;
-    this.cnome=cnome;
-    this.cemail=cemail;
+    cusuario=document.getElementById("cusuario").value;
+    csenha=document.getElementById("csenha").value;
+    cnome=document.getElementById("cnome").value;
+    cemail=document.getElementById("cemail").value;
 }
 
 function cleanCadastro(){
-    
+    document.getElementById("cusuario").value="";
+    document.getElementById("csenha").value="";
+    document.getElementById("cnome").value="";
+    document.getElementById("cemail").value="";
 }

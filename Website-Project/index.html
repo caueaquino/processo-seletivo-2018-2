@@ -4,12 +4,13 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>UTFPR-CP Eventos</title>
+        <link rel="icon" href="img/indexicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
         <script src="js/index.js"></script>
     </head>
   
-    <body background-image: >
+    <body>
         <div class="sidebar">
             <h1>Calendario Eventos UTFPR-CP</h1>
             <div class="navegationlist">
@@ -49,11 +50,11 @@
         <div id="login">
             <h1>Login</h1>
             <form><b>
-                Usuário:<br>
-                <input type="text" name="lusuario" size="30"><br>
-                Senha:<br>
-                <input type="password" name="lsenha" size="30"><br>
-                <input type="button" onclick="alert('fazer login')" value="Entrar">
+                Usuário:
+                <input type="text" id="lusuario" name="lusuario" size="30"><br>
+                Senha:
+                <input type="password" id="lsenha" name="lsenha" size="30"><br>
+                <input type="button" onclick="login()" value="Entrar">
             </b></form>
         </div>
 
@@ -61,14 +62,14 @@
             <h1>Cadastrar-se</h1>
             <form><b>
                 Usuário:
-                <input type="text" name="cusuario" size="30"><br>
+                <input type="text" id="cusuario" name="cusuario" size="30"><br>
                 Senha:
-                <input type="password" name="csenha" size="30"><br>
+                <input type="password" id="csenha" name="csenha" size="30"><br>
                 Nome:
-                <input type="text" name="cnome" size="30"><br>
+                <input type="text" id="cnome" name="cnome" size="30"><br>
                 Email:
-                <input type="email" name="cemail" size="30"><br>
-                <input type="button" onclick="alert('fazer cadastro')" value="Cadastrar-se">
+                <input type="email" id="cemail" name="cemail" size="30"><br>
+                <input type="button" onclick="cadastro()" value="Cadastrar-se">
             </b></form>
         </div>
 

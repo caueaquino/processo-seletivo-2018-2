@@ -1,3 +1,5 @@
+/* CSS Document */
+
 * {
     border: 1px solid rgba(255, 255, 255, 0);
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-    background-image: url("https://yese69.com/wp-content/uploads/data/2017/12/12/dark-blue-background-1920x1080-WTG200223280.jpg");
+    background-image: url("../img/bginit.jpg");
     background-size: 100%;
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -149,7 +151,7 @@ nav li a:active {
    text-align: center;
    margin-left: 30%;
    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.753);
-   padding-bottom: 15%;
+   padding-bottom: 19%;
    border-bottom: 1px solid rgba(211, 199, 255, 0.719);
 }
 

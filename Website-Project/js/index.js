@@ -1,4 +1,5 @@
 // Javascript Document
+
 function login(){
     if((document.getElementById("lusuario").value=="") || (document.getElementById("lsenha").value=="")){
         alert("Erro Login, Campo(s) em branco!");

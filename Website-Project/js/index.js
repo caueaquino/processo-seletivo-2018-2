@@ -17,6 +17,7 @@ function pesLogin(){
     lsenha=document.getElementById("lsenha").value;
 }
 
+
 function cleanLogin(){
     document.getElementById("lusuario").value="";
     document.getElementById("lsenha").value="";
@@ -30,7 +31,7 @@ function cadastro(){
     }else{
         pesCadastro();
         alert("Informações\nUsuário: "+cusuario+"\nSenha: "+csenha+"\nNome: "+cnome+"\nEmail: "+cemail);
-        alert(pesCadastro);
+        document.getElementsByid('http://localhost:8080/index#cadastro/nodem');
     }
     cleanCadastro();
 }

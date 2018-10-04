@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    color: blue;
+
+    
+}
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+table{
+    width: 100%;
+    border: 50px solid rgb(255, 255, 255, 0);
+}
+
+td{
+    border: 30px solid rgb(255, 255, 255);
+}
+
+
+
+h2{
+    width: 100%;
+    height: 100%;
+    padding:50% 0%;
+    position: center;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    border-radius: 3%;
+    font-size: 30px;
+    -webkit-text-stroke: 1px white;
+      
+
+     
+
+}
+
+td{
+    width: 300px;
+    height: 300px;    
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+ 
+#Janeiro{
+    background-image: url(../img/img_mc/janeiro.jpg);
+    border-radius: 10%;
+         
+    
+}
+
+#ja{
+    background-color: rgba(0, 174, 255, 0.507);
+  
+}
+
+
+#ja:hover{
+    background-color:  rgba(0, 174, 255, 0);
+    color: black;
+}
+
+
+#Fevereiro{
+    background-image: url(../img/img_mc/fevereiro.jpg);
+    border-radius: 10%;
+    
+}
+
+#fe{
+    background-color: rgba(96, 244, 224, 0.575);
+   
+}
+
+#fe:hover{
+    background-color: rgba(96, 244, 244, 0);
+    color: black;
+}
+
+#Março{
+    background-image: url(../img/img_mc/março.jpeg);
+    border-radius: 10%;
+}
+
+#mar{
+    background-color: rgba(211, 91, 131, 0.575);
+    
+}
+
+#mar:hover{
+    background-color: rgba(211, 91, 131, 0);
+    color: black;
+}
+
+#Abril{
+    background-image: url(../img/img_mc/abril.jpg);
+    border-radius: 10%;
+}
+
+#abr{
+    background-color: rgba(230, 59, 173, 0.5);
+   
+}
+
+#abr:hover{
+    background-color: rgb(230, 59, 173, 0);
+    color: black;
+}
+
+
+#Maio{
+    background-image: url(../img/img_mc/Maio.jpg);
+    border-radius: 10%;
+}
+
+#mai{
+    background-color: rgba(133, 179, 247, 0.6);
+    
+
+}
+
+#mai:hover{
+    background-color: rgba(133, 179, 247, 0);
+    color: black;
+}
+
+#Junho{
+    background-image: url(../img/img_mc/junho.jpg);
+    border-radius: 10%;
+}
+
+#jun{
+    background-color: rgba(0, 225, 255, 0.5);
+  
+}
+
+#jun:hover{
+    background-color: rgba(0, 255, 255, 0);
+    color: black;
+}
+
+#Julho{
+    background-image: url(../img/img_mc/julho.jpg);
+    border-radius: 10%;
+}
+
+#jul{
+    background-color: rgba(153, 111, 170, 0.5);
+   
+}
+
+#jul:hover{
+    background-color: rgba(153, 111, 170, 0);
+    color: black;
+}
+
+#Agosto{
+    background-image: url(../img/img_mc/agosto.jpg);
+    border-radius: 10%;
+}
+
+#ago{
+    background-color: rgba(113, 0, 128, 0.6);
+    
+}
+
+#ago:hover{
+    background-color: rgba(113, 0, 128, 0);
+    color: black;
+}
+
+
+#Setembro{
+    background-image:url(../img/img_mc/setembro.jpg);
+    border-radius: 10%;
+}
+
+
+#set{
+    background-color: rgba(238, 130, 238, 0.562);
+    
+}
+
+#set:hover{
+    background-color: rgba(238, 130, 238, 0);
+    color: black;
+}
+
+#Outubro{
+    background-image: url(../img/img_mc/outubro.png);
+    border-radius: 10%;
+
+}
+
+#out{
+    background-color: rgb(108, 85, 116, 0.5);
+    
+ }
+
+#out:hover{
+    background-color: rgba(108, 85, 116, 0);
+    color: black;
+}
+
+#Novembro{
+    background-image: url(../img/img_mc/novembro.jpeg);
+    border-radius: 10%;
+}
+
+
+#nov{
+    background-color: rgba(163, 18, 199, 0.479);
+   
+}
+
+#nov:hover{
+    background-color: rgba(163, 18, 199, 0);
+    color: black;
+}
+
+#Dezembro{
+    background-image: url(../img/img_mc/dezembro.jpg);
+    border-radius: 10%;
+}
+
+
+#dez{
+    background-color: rgba(233, 13, 97, 0.493);
+    
+}
+
+#dez:hover{
+    background-color:rgba(233, 13, 97, 0);
+    color: black;
+}

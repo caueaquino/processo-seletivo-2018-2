@@ -30,7 +30,7 @@ body{
 table{
     padding-top: 55px;
     width: 100%;
-    border: 100px solid rgb(255, 255, 255, 0);
+    border: 150px solid rgb(255, 255, 255, 0);
 
 }
 
@@ -56,11 +56,24 @@ a{
     border-radius: 3%;
     font-size: 30px;
     -webkit-text-stroke: 1px white;
-      
-
-     
-
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
 }
+      
+   
+
+
+a:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
 
 td{
     width: 300px;

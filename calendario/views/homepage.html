@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>UTFPR-CP Eventos</title>
+        <link rel="icon" href="../public/images/calendar.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="../public/css/style-homepage.css"/>
+    </head>
+  
+    <body>
+        <div class="sidebar">
+            <h1>Calendario Eventos UTFPR-CP</h1>
+            <div class="navegationlist">
+                <nav>  
+                    <ul>
+                        <li><a href="#inicio"><b>I N I C I O</b></a></li>
+                        <li><a href="#login"><b>L O G I N</b></a></li>
+                        <li><a href="#cadastro"><b>C A D A S T R A R - S E</b></a></li>
+                        <li><a href="#esqueceu"><b>R E C U P E R A R - C O N T A</b></a></li>
+                        <li><a href="#sobre"><b>S O B R E</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="parceirossite">
+                <h2><b>Parceiros:</b></h2>
+                <div class="unectlogo">
+                    <li><a href="http://www.unect.com.br/" class="linkparceiros">
+                        <img src="../public/images/unectlogo.png" alt=" LogoUnect-Jr." style="width:100px; height: 100px;">
+                        <h3><b>Unect Jr.</b></h3>
+                    </a></li>
+                </div>
+                <div class="utfprlogo">
+                    <li><a href="http://www.utfpr.edu.br/cornelioprocopio" class="linkparceiros">
+                        <img src="../public/images/utfprlogo.png" alt="LogoUTFPR-CP" style="width:175px; height:70px">
+                        <h3><b>UTFPR-CP</b></h3>
+                    </a></li>
+                </div>
+            </div>    
+        </div>
+
+        <div id="inicio">
+            <h1>Bem-Vindo(a)</h1>
+            <p><b>
+                Para acessar nosso Calendario de Eventos, basta fazer  o login descendo a página ou clicando na opção "Login". Se você ainda não é cadastrado selecione a opção "Cadastrar-se" e comece a usar nosso sistema. 
+            </b></p>
+        </div>
+
+        <div id="login">
+            <h1>Login</h1>
+            <form ><b>
+                Usuário:
+                <input type="text" id="lusuario" name="lusuario" size="30" placeholder="Usuário" required><br> 
+                Senha:
+                <input type="password" id="lsenha" name="lsenha" size="30" placeholder="Senha" required><br>
+                <a href="http://localhost:3000/meses"><input type="button" value="Entrar"></a>
+            </b></form>
+        </div>
+
+        <div id="cadastro">
+            <h1>Cadastrar-se</h1>
+            <form action="cadastro" method="POST"><b>
+                Usuário:
+                <input type="text" id="cusuario" name="cusuario" size="30" placeholder="Usuário" required><br>
+                Senha:
+                <input type="password" id="csenha" name="csenha" size="30" placeholder="Senha" required><br>
+                Nome:
+                <input type="text" id="cnome" name="cnome" size="30" placeholder="Nome" required><br>
+                Email:
+                <input type="email" id="cemail" name="cemail" size="30" placeholder="Email" required><br>
+                 <input type="submit" onclick="" value="Cadastrar-se">
+            </b></form>
+        </div>
+
+        <div id="esqueceu">
+            <h1>Recuperação de Conta</h1>
+            <h2>Insira seu email no campo abaixo para receber os dados de sua conta</h2>
+            <form action="esqueceu" method="POST"><b>
+                Email:
+                <input type="email" id="remail" name="remail" size="30" placeholder="Email" required><br>
+                <input type="submit" value="Confirmar"><br>
+            </b></form>
+        </div>
+
+        <div id="sobre">
+            <h1>Sobre</h1>
+            <p><b>
+                Este Website foi desenvolvido por estudantes da instituição UTFPR-CP com a finalidade de auxiliar pessoas, com foco nos estudantes da instituição, sobre eventos, sendo eles palestras, workshops, festas, shows, todo tipo de evento que venha a ser de interesse dos usúarios. O site oferece esta funcionalidade por meio de um calendario, no qual se pode adicionar e visualizar eventos que ocorrerão na região de Cornélio Procópio.
+            </b></p>
+        </div>
+    </body>
+</html>

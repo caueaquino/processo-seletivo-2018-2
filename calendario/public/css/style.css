@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  position: relative;
+  margin:0;
+  
+}
+
+
+section{
+  height: 90vh;
+}
+
+#sobre{
+  
+  margin-top: 20%;
+}
+
+h1{
+  font-family: 'Krub', sans-serif;
+}
+
+.row{
+  margin: 0;
+}
+
+h6{
+  margin-right: 50%;
+  font-family: 'K2D', sans-serif;
+}
+
+#addEvent{
+  margin-left: 45%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+
+#data h5{
+  margin-right: 3%;
+}
+
+#contato{
+  margin-top: 10%;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}
+.row{
+  margin-top: 2%;
+}
+
+.social{
+  font-size: 200%;
+  margin: 0;
+}
+
+.social a{
+  margin-right: 1%;
+}

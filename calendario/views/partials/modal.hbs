@@ -1,0 +1,39 @@
+<!-- Modal -->
+      <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Adicionar Evento</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!--INÍCIO FORMULÁRIO-->
+              <form action="/add" method="post">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input name="dateOfEvent" type="text" class="form-control" placeholder="Dia do mês">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input name="typeOfEvent" type="text" class="form-control" placeholder="Tipo do Evento (ex.:Palestra/Inscrição...)">
+                  </div>
+                  <br>
+                  <br>
+                  <div class="form-group">
+
+                    <textarea name="descriptionOfEvent" class="form-control-lg" id="exampleFormControlTextarea1" rows="3" placeholder="Descrição do evento..."></textarea>
+                  </div>
+                </div>
+
+                <!--FIM FORMULÁRIO-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-primary">Concluído</button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--Fim modal-->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+{{> head }}
+
+<body>
+
+  {{> navbar }}
+  <section id="sobre">
+    <div class="container-fluid text-center">
+      <h1>
+        <strong>
+          {{title}}
+        </strong>
+      </h1>
+      <h4>Eventos do mês...</h4>
+      <a href="#events" id="button-down">
+        <i class="fas fa-chevron-circle-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container-fluid mx-auto">
+      <!-- Botão para acionar modal -->
+      <button type="button" id="addEvent" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+        Adicionar Evento
+      </button>
+
+      {{> modal}}
+
+      <div class="row eventos">
+        {{#each events}}
+        <div class="col-sm-4 text-center rounded" id="data">
+          <h5>{{this.dateOfEvent}}
+            <span class="border-right"></span>
+          </h5>
+        </div>
+        <div class="col-sm-4 rounded" id="description">
+          <h6>{{typeOfEvent}} - {{descriptionOfEvent}}</h6>
+        </div>
+        <div class="col-sm-4 text-center rounded" id="deletes">
+          <!--<a href="">
+            <i class="fas fa-pencil-alt" title="Editar"></i>
+          </a>-->
+          <br>
+          <a href="/delete/{{this._id}}">
+            <i class="fas fa-trash-alt" title="Excluir"></i>
+          </a>
+        </div>
+        {{/each}}
+      </div>
+
+
+      {{> footer }}
+</body>
+
+</html>

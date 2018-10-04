@@ -20,7 +20,10 @@ body {
     height: 100vh;
     overflow: auto;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-image: url("../img/bgsidebar.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-right: 1px solid rgba(211, 199, 255, 0.719);
 }
 
@@ -89,7 +92,7 @@ nav li a:active {
 }
 
 .parceirossite li a{
-    display: block;
+    display: inline;
 }
 
 .parceirossite li a:hover {
@@ -102,7 +105,7 @@ nav li a:active {
 }
 
 .utfprlogo {
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: 50%;
 }
 
@@ -133,7 +136,6 @@ nav li a:active {
     font-family: sans-serif;
     text-align: center;
     margin-left: 30%;
-    background-color: rgba(43, 46, 226, 0.5);
     text-shadow: 1px 1px 1px black;
 }
 
@@ -155,8 +157,8 @@ nav li a:active {
    margin-left: 30%;
    text-shadow: 1px 1px 1px black;
    padding-bottom: 19%;
-   background-color: rgba(0, 201, 10, 0.5);
    border-bottom: 1px solid rgba(211, 199, 255, 0.719);
+   background-attachment: fixed;
 }
 
 #login h1 {
@@ -181,7 +183,6 @@ nav li a:active {
 }
 
 #cadastro {
-   background-color: rgba(212, 3, 212, 0.5);
    color: white;
    font-family: sans-serif;
    text-align: center;
@@ -211,6 +212,43 @@ nav li a:active {
     border: 1px solid rgba(211, 199, 255, 0.719);
 }
 
+#esqueceu {
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+   margin-left: 30%;
+   text-shadow: 1px 1px 1px black;
+   padding-bottom: 15%;
+   border-bottom: 1px solid rgba(211, 199, 255, 0.719);
+}
+
+#esqueceu h1 {
+    padding-top: 15%;
+    font-size: 64px;
+    margin-bottom: 5%;
+}
+
+#esqueceu h2 {
+    font-size: 22px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+#esqueceu form {
+    font-size: 28px;
+}
+
+#esqueceu input {
+    color: white;
+    padding: 1% 5%;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: rgba(99, 99, 99, 0.456);
+    border: 1px solid rgba(211, 199, 255, 0.719);
+}
 
 #sobre {
     border-bottom: 1px solid rgba(211, 199, 255, 0.719);
@@ -219,7 +257,7 @@ nav li a:active {
     text-align: center;
     margin-left: 30%;
     text-shadow: 1px 1px 1px black;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-attachment: local;
 }
 
 #sobre h1 {
